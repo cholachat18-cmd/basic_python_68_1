@@ -12,11 +12,12 @@ antigravity .                                                                   
 git init                                                                            #(ทำให้โฟลเดอร์รู้จักกับเครื่องมือ git)
 git remote add origin https://github.com/cholachat18-cmd/basic_python_68_1.git
 
-git config --global user.name "cholachat18-cmd"
-git config --global user.email "cholachat18@gmail.com"
+git config --global user.name "your name"
+git config --global user.email "email"
 
 git add.
 git commit -m "your message"                                                         #(ใส่รายละเอียดการเเก้ไข)
 git push origin main                                                                 #(ส่งข้อมูลไป save)
 
 git pull origin main                                                                 #(การส่งข้อมูลระหว่างเครื่อง)
+git push -u origin main
